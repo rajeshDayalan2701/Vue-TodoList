@@ -39,7 +39,7 @@ export default {
 
   input[type="text"] {
     flex: 10;
-    padding: 5px;
+    padding: 12px;
   }
 
   input[type="submit"] {

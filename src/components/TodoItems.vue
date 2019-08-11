@@ -14,7 +14,11 @@
     props: ["todo"],
     methods: {
       markComplete() {
+        //changing the status on click of the element
         this.todo.completed = !this.todo.completed;
+
+        //emit to parent element on check
+        this.$emit('change-completion', this.todo);
       }
     }
   }
